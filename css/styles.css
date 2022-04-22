@@ -6,9 +6,16 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
+@import "components/point.css";
+@import "components/find.css";
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+
+body {
+  height: 1000vh;
+}
 
 .welcome-header {
   margin: 90px 0px;
