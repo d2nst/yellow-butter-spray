@@ -4,8 +4,11 @@
 /* components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
 /* screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 .welcome-header {
   margin: 90px 0px;
@@ -24,4 +27,7 @@
 .welcome-header__text {
   width: 60%;
   opacity: 0.5;
+}
+.main-screen {
+  padding: var(--horizontal-space);
 }
