@@ -10,10 +10,19 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffe0e0;
+}
 #first-page {
   width: 370px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 #second-page {
   width: 370px;
+  background-color: white;
+  border-radius: 20px;
 }
