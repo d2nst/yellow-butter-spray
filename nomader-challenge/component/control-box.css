@@ -1,0 +1,42 @@
+.control-box {
+  padding: 0px 10px;
+}
+
+.control-box_name {
+  width: 340px;
+  height: 75px;
+  background-color: black;
+  border-radius: 50px;
+  opacity: 90%;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.control-box_name h4 {
+  position: absolute;
+  font-size: 14px;
+  top: 20px;
+  left: 30px;
+  color: rgba(119, 119, 119);
+  font-weight: 500;
+}
+
+.control-box_name h3 {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.control-box_icons {
+  color: white;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.control-box_icons i:nth-child(2) {
+  margin: 0px 20px;
+}
