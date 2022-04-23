@@ -5,15 +5,18 @@
 @import "component/main-title.css";
 @import "component/main-ablum.css";
 @import "component/control-box.css";
+@import "component/main-music-play.css";
 /* header icons */
 * {
   box-sizing: border-box;
 }
 
 body {
+  width: 1000px;
   display: flex;
   justify-content: space-evenly;
   background-color: #836a96;
+  margin: 30px;
 }
 #first-page {
   width: 370px;
