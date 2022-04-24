@@ -12,11 +12,11 @@
 }
 
 body {
-  width: 1000px;
+  padding: 20px;
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-around;
   background-color: #836a96;
-  margin: 30px;
 }
 #first-page {
   width: 370px;
