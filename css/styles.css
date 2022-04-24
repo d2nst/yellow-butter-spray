@@ -9,13 +9,11 @@
 @import "components/badge.css";
 @import "components/point.css";
 @import "components/find.css";
+@import "components/icon-row.css";
+@import "components/more.css";
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
-
-body {
-  height: 1000vh;
-}
 
 .welcome-header {
   margin: 90px 0px;
