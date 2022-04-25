@@ -2,6 +2,9 @@
   justify-content: space-between;
 }
 
+.component-size {
+  margin-bottom: 20px;
+}
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -50,4 +53,8 @@
 .user-component__time {
   margin-bottom: 6px;
   display: flex;
+}
+
+.user-component__column i {
+  color: black;
 }
