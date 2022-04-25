@@ -1,0 +1,31 @@
+@import "reset.css";
+
+/* component */
+@import "component/screen-header.css";
+@import "component/main-title.css";
+@import "component/main-ablum.css";
+@import "component/control-box.css";
+@import "component/main-music-play.css";
+/* header icons */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #836a96;
+}
+#first-page {
+  width: 370px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#second-page {
+  width: 370px;
+  background-color: white;
+  border-radius: 20px;
+}

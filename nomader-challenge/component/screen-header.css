@@ -1,0 +1,8 @@
+.screen-header {
+  padding: 40px 15px;
+}
+
+.screen-header__icons {
+  display: flex;
+  justify-content: space-between;
+}
