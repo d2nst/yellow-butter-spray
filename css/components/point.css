@@ -7,3 +7,23 @@
   left: 23px;
   bottom: 20px;
 }
+
+.point-2 {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 32px;
+  bottom: 30px;
+}
+
+.point-3 {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 235px;
+  top: 240px;
+}

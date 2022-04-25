@@ -13,15 +13,6 @@
   margin-bottom: 30px;
 }
 
-.more-point {
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  position: absolute;
-  left: 44%;
-}
-
 .more-suggestions__icons {
   display: flex;
 }

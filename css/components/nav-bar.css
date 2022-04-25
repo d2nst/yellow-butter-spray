@@ -16,18 +16,34 @@
   justify-content: space-between;
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   position: absolute;
   left: 20px;
   bottom: 17px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
-.nav__notification-2 {
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  position: absolute;
-  left: 32px;
-  bottom: 30px;
+@keyframes appearBtnAnimation {
+  form {
+    transform: translateY(20px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav__btn {
+  animation: ppearBtnAnimation 1s ease-in-out;
 }

@@ -123,13 +123,13 @@
 .reply__column:last-child > i,
 .reply button {
   position: absolute;
-  right: -3px;
-  top: 2px;
+  right: -20px;
+  top: 5px;
 }
 
 .reply__column:last-child > i {
-  right: 40px;
-  top: 10px;
+  right: 22px;
+  top: 12px;
 }
 
 .reply__column button {
