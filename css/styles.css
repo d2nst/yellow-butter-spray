@@ -40,7 +40,3 @@
 .main-screen {
   padding: var(--horizontal-space);
 }
-
-body {
-  height: 500vh;
-}
