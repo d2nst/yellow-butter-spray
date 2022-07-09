@@ -17,6 +17,9 @@
   left: 32px;
   bottom: 30px;
 }
+.more-icon {
+  position: relative;
+}
 
 .point-3 {
   background-color: tomato;
@@ -24,6 +27,5 @@
   height: 5px;
   border-radius: 50%;
   position: absolute;
-  left: 235px;
-  top: 240px;
+  transform: translate(25px, -2px);
 }
